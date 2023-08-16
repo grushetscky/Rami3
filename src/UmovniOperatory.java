@@ -11,8 +11,6 @@ public class UmovniOperatory {
         } else {
             result = a + b;
         }
-        System.out.println("#1");
-        System.out.println("result is:"+ result);
         return result;
     }
 

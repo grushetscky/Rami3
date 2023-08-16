@@ -9,6 +9,17 @@ public class Main {
 
         Cykly cykly = new Cykly();
         Cykly.kilkist();*/
-        Cykly.isPrime(4);
+       // Cykly.isPrime(1);
+       // Cykly.sqrt(25);
+        //Cykly.factor(5);
+        System.out.println(Cykly.factor(12));
+
+       Arrays arrays = new Arrays();
+       // Arrays.armin();
+       // Arrays.armax();
+        Arrays.indmin();
+System.out.println(Arrays.indmin());
+       // Arrays.indmax();
+       // Arrays.sum();*/
     }
 }

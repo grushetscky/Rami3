@@ -17,21 +17,30 @@ public class Cykly {
     }
 
     public static boolean isPrime(int number) {
+        int temp;
         boolean isPrime = true;
-        for (int i=2; i<=number/2; i++) {
-            if (number % i == 0) {
-                break;
+        for (int i = 2; i <= number / 2; i++) {
+            temp = number % i;
+            if (temp == 0) {
+                isPrime = false;
+            break;
             }
         }
         return isPrime;
     }
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("vvedit chyslo ");
-//        int numberToCheck = scanner.nextInt();
-//
-//        isPrime(numberToCheck);
-//    }
+    public static int sqrt(int b) {
+        int a = (int) Math.sqrt (b);
+        System.out.println(a);
+        return a;
+    }
+    static int factor(int n){
+        int f = 1;
+        for (int i = 1; i <=n; i ++){
+            f = f*i;
+        }
+        return f;
+    }
+
 }
 
 
